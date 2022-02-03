@@ -1,0 +1,108 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+1. Дано значение угла α в градусах (0 < α < 360). Определить значение этого же угла в радианах, учитывая, что 180◦ = π радианов.
+
+#include <iostream>              
+using namespace std;
+#include <math.h>
+int main() {
+  
+  float p = 3.14;
+ float a;
+ float B = 1;
+ cin >> a;
+ B = a / 180;
+
+ cout << B * p << "\n";
+ 
+ return 0;
+} 
+
+
+2. Дан диаметр окружности d. Найти ее длину L = π•d. В качестве
+значения π использовать 3.14.
+#include <iostream>
+using namespace std;
+#include <math.h>
+
+int main2() {
+  
+  int P = 180;
+  float a = P / 2;
+  
+  cout << a;
+}
+
+
+3. Известно, что X кг конфет стоит A рублей. Определить, сколько стоит 1 кг и Y кг этих же конфет.
+
+#include <iostream>
+using namespace std;
+#include <math.h>
+
+int main3(){
+  int x = 5;
+  int A = 500;
+  float A1=A/5;
+  int Y1 = 7;
+  int Y = Y1 *A;
+  cout << A1;
+  cout << Y;
+  
+}
+
+
+4. Скорость первого автомобиля V1 км/ч, второго — V2 км/ч, расстояние между ними S км. Определить расстояние между ними через T часов, если автомобили удаляются друг от друга. 
+#include <iostream>
+using namespace std;
+#include <math.h>
+
+int main4(){
+
+  int V1 = 60;
+  int V2 = 70;
+  int S = V2 - V1;
+  int T = 3;
+  int S1 = S * T;
+  cout << S;
+  
+  cout << S1;
+  
+
+}
+
+
+5. Решить линейное уравнение A•x + B = 0, заданное своими коэффициентами A и B (коэффициент A не равен 0).
+#include <iostream>
+using namespace std;
+#include <math.h>
+
+int main5(){
+  //A*x+B=0;
+  int A =4;
+  int B = 8;
+  int x = (-B)+(-A);
+  cout << x;
+}
+
+
+6. Найти решение системы линейных уравнений вида 
+A1•x + B1•y = C1, 
+#include <iostream>
+using namespace std;
+#include <math.h>
+
+int main6(){
+  //A1*x+B1*y=C1;
+  //A2*x+B2*y=C2;
+  int A1 = 8;
+  int B1 = 4;
+  int C1 = 7;
+  int A2 = 2;
+  int B2 = 6;
+  int C2 = 9;
+   int y = C1 -B1 -A1*y;
+   int x = C2 -B2 -A2*x;
+  cout << y;
+  cout << x;
+}
